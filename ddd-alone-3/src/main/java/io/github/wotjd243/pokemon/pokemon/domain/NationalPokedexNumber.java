@@ -35,4 +35,8 @@ public class NationalPokedexNumber {
     public int hashCode() {
         return Objects.hash(number);
     }
+
+    public int toInt() {
+        return number;
+    }
 }
